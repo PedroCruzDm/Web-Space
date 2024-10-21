@@ -36,7 +36,7 @@
         </div>
     </main>
     <footer>
-
+        <?php include("./padrao/footer.php") ?>
     </footer>
     
 </body>

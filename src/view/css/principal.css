@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
     padding: 10px;
     background: rgb(0,0,0);
-    background: linear-gradient(189deg, #000000 0%, #001b69 100%);
+    background: linear-gradient(189deg, #000000 0%, #001b69 100%);/
 }
 
 .logo img {
@@ -54,7 +54,12 @@ nav ul li a:hover {
     padding-left: 4%;
     padding-right: 4%;
     padding-bottom: 5%;
-    background-color: red;
+    background: transparent;
+    backdrop-filter: blur(10px);
     border-radius: 24px;
     border: #001b69 8px solid;
+    border: transparent #001b69;
+}
+.div-login h1{
+    text-shadow: 0px 0px 10px #455ee9,0px 0px 20px #455ee9,0px 0px 30px #455ee9,0px 0px 40px #455ee9;
 }

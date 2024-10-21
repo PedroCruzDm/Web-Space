@@ -11,12 +11,14 @@
     <header>
         <?php include("./view/padrao/header.php") ?>
     </header>
-    <sidebar></sidebar>
+    <sidebar class="esquerda-sidebar">1</sidebar>
     <main>
 
     </main>
+    <sidebar class="direita-sidebar">2</sidebar>
     <footer>
-
+        <!-- #region footer-->
+         <?php include("./view/padrao/footer.php") ?>
     </footer>
     
 </body>

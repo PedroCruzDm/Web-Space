@@ -15,7 +15,7 @@
     <div class="div-login">
             <form action="" method="post">
                 <center>
-                    <h2>Login</h2>
+                    <h1>Login</h1>
                     <label for="Nick">Usuario:</label>
                     <input type="text" name="nickuser" id="nickuser" placeholder="Nome de Usuario" required>
                     <br>
@@ -28,7 +28,7 @@
         </main>
     </div>
     <footer>
-
+        <?php include("./padrao/footer.php") ?>
     </footer>
 </body>
 </html>
