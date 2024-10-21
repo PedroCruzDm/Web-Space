@@ -11,9 +11,7 @@
     <header>
         <?php include("./view/padrao/header.php") ?>
     </header>
-    <sidebar>
-        
-    </sidebar>
+    <sidebar></sidebar>
     <main>
 
     </main>
