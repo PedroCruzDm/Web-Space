@@ -1,0 +1,118 @@
+@keyframes circulo { 0% {  transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+.orbita {
+    background: transparent;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    z-index: -5;
+  }
+
+  .mercurio {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ccc;
+    position: absolute;
+    border-radius: 50%;
+    animation: circulo 3s linear infinite;
+    z-index: -5;
+  }
+  .mercurio::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    box-shadow: 0 0 10px #b8b8b7, 0 0 40px #edefec;
+    z-index: -5;
+  }
+
+  .venus{
+    width: 230px;
+    height: 230px;
+    border: 2px solid #ccc;
+    position: absolute;
+    border-radius: 50%;
+    animation: circulo 5.4s linear infinite;
+  }
+  .venus::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    box-shadow: 0 0 10px #b8b8b7, 0 0 40px #edefec;
+  }
+  .terra{
+    width: 430px;
+    height: 430px;
+    border: 2px solid #ccc;
+    position: absolute;
+    border-radius: 50%;
+    animation: circulo 5.4s linear infinite;
+  }
+  .terra::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    box-shadow: 0 0 10px #b8b8b7, 0 0 40px #edefec;
+  }
+  .marte{
+    width: 630px;
+    height: 630px;
+    border: 2px solid #ccc;
+    position: absolute;
+    border-radius: 50%;
+    animation: circulo 5.35s linear infinite;
+  }
+  .marte::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    box-shadow: 0 0 10px #b8b8b7, 0 0 40px #edefec;
+  }
+  .jupter{
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid #ccc;
+    position: absolute;
+    border-radius: 50%;
+    animation: circulo 7.4s linear infinite;
+  }
+  .jupter::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 40%;
+    transform: translateX(-50%);
+    width: 58px;
+    height: 50px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    box-shadow: 0 0 10px #b8b8b7, 0 0 40px #edefec;
+  }

@@ -42,4 +42,61 @@ nav ul li a {
 
 nav ul li a:hover {
     font-weight: bold;
+    color: #455ee9;
 }
+
+.div-login{
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
+    align-items: center;
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 5%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+    border: #001b69 8px solid;
+    border: transparent #001b69;
+    box-shadow: 0px 0px 10px #455ee9,0px 0px 20px #455ee9,0px 0px 30px #455ee9,0px 0px 40px #455ee9;
+}
+.div-login h1{
+    text-shadow: 0px 0px 10px #455ee9,0px 0px 20px #455ee9,0px 0px 30px #455ee9,0px 0px 40px #455ee9;
+    font-weight: bold;
+    
+}
+.div-login input{
+    margin: 3%;
+    border: 3px solid #455ee9;
+    border-radius: 24px;
+    text-align: center;
+    box-shadow: 0px 0px 70px #455ee9,0px 0px 14px #455ee9;/*teste ta feio*/
+}
+
+.fundo{
+    z-index: -5;
+    margin-top: 30%;
+}
+
+.div-projetos{
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 5%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+    border: #001b69 8px solid;
+    border: transparent #001b69;
+    box-shadow: 0px 0px 10px #455ee9,0px 0px 20px #455ee9,0px 0px 30px #455ee9,0px 0px 40px #455ee9;
+}
+/* 
+object mapping -- ORM
+
+
+
+*/

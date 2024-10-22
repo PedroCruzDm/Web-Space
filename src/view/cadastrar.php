@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar-se</title>
-    <link rel="stylesheet" href="./view/css/principal.css">
+    <link rel="stylesheet" href="./css/principal.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <?php include("./padrao/header.php") ?>
     </header>
     <main>
-        <div class="caixa-cadastro">
+        <div class="div-login">
             <form action="" method="post">
                 <center>
                     <h2>Cadastrar-se</h2>
@@ -36,7 +37,7 @@
         </div>
     </main>
     <footer>
-
+        <?php include("./padrao/footer.php") ?>
     </footer>
     
 </body>
